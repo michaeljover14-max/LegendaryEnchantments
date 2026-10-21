@@ -1,0 +1,15 @@
+world-border: 3000
+apply-with-anvil: true
+infinite-totem-cooldown-seconds: 300
+# El sistema único se aplica a los libros emitidos por /legendary givebook.
+# Para impedir duplicados por otros plugins, evita dar encantamientos especiales con comandos externos.
+books:
+  infinity: {rarity: LEGENDARY, max: 1, level: 1}
+  riptide: {rarity: LEGENDARY, max: 1, level: 3}
+  channeling: {rarity: LEGENDARY, max: 1, level: 1}
+  protection: {rarity: LEGENDARY, max: 1, level: 4}
+  thorns: {rarity: LEGENDARY, max: 1, level: 3}
+  knockback: {rarity: RARE, max: 5, level: 10}
+  fortune: {rarity: RARE, max: 5, level: 5}
+  efficiency: {rarity: RARE, max: 5, level: 8}
+  sharpness: {rarity: RARE, max: 5, level: 8}

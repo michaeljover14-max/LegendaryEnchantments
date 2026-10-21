@@ -1,0 +1,12 @@
+name: LegendaryEnchantments
+version: 1.0.0
+main: com.smp.legendary.LegendaryPlugin
+api-version: '1.21'
+author: SMP
+commands:
+  legendary:
+    description: Gestion de libros unicos
+    usage: /legendary help
+permissions:
+  legendary.admin:
+    default: op
